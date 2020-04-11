@@ -10,9 +10,9 @@
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via , , and so on.
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via .
+# in the templates via {{ site.myvariable }}.
 locale: "ja-JP"
 title: &title "yiwkr blog"
 title_separator : "-"
@@ -35,13 +35,13 @@ social:
     - "https://twitter.com/yiwkr"
 
 # Analytics
-
+{% if production %}
 analytics:
   provider: "google-universal"
   google:
     tracking_id: "UA-163387568-1"
     anoymize_ip: true
-
+{% endif %}
 
 # Site Author
 author:
@@ -72,9 +72,11 @@ footer:
 
 # Build settings
 markdown: "kramdown"
-
+{% if production %}
 remote_theme: mmistakes/minimal-mistakes@4.19.1
-
+{% else %}
+theme: "minimal-mistakes-jekyll"
+{% endif %}
 minimal_mistakes_skin: "default"
 plugins:
   - "jekyll-sitemap"

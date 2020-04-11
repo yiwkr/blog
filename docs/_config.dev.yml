@@ -36,12 +36,6 @@ social:
 
 # Analytics
 
-analytics:
-  provider: "google-universal"
-  google:
-    tracking_id: "UA-163387568-1"
-    anoymize_ip: true
-
 
 # Site Author
 author:
@@ -73,7 +67,7 @@ footer:
 # Build settings
 markdown: "kramdown"
 
-remote_theme: mmistakes/minimal-mistakes@4.19.1
+theme: "minimal-mistakes-jekyll"
 
 minimal_mistakes_skin: "default"
 plugins:

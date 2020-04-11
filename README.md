@@ -1,5 +1,8 @@
-jekyll test
-===========
+yiwkr blog
+==========
 
-https://yiwkr.github.io/
+JekyllとGithub Pagesで作るブログです。
+
+下記URLで公開されます。
+URL: https://yiwkr.github.io/blog/
 
