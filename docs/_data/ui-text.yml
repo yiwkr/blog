@@ -1112,7 +1112,7 @@ ja: &DEFAULT_JA
   meta_label                 :
   tags_label                 : "タグ:"
   categories_label           : "カテゴリー:"
-  date_label                 : "更新日時:"
+  date_label                 : "更新日:"
   comments_label             : "コメントする"
   comments_title             : "コメント"
   more_label                 : "さらに詳しく"
