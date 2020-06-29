@@ -164,5 +164,4 @@ defaults:
       <<: *defaults_pages_values
       permalink: "/"
       layout: "home"
-      title: *title
       excerpt: *description
