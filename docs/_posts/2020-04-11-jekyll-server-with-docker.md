@@ -2,6 +2,7 @@
 title: "Dockerで起動したJekyllサーバーでブログ記事をプレビュー"
 excerpt: "DockerでJekyllのプレビュー環境を構築したときのメモです"
 date: 2020-04-11 12:42:51 +0900
+last_modified_at: 2020-07-02 00:13:33 +0900
 categories: "Tech"
 tags: ["Jekyll", "Docker", "Makefile"]
 ---
