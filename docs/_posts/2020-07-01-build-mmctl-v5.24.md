@@ -1,7 +1,7 @@
 ---
 title: "mmctl v5.24をビルドする"
-excerpt: ""
-date: 2020-07-01 23:30:54 +0900
+excerpt: "mmctlのビルドするまでのみちのりを記録"
+date: 2020-07-02 00:03:27 +0900
 categories: "Tech"
 tags: ["Mattermost", "mmctl"]
 ---

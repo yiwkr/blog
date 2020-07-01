@@ -1,7 +1,7 @@
 ---
 title: "Alpine LinuxのwgetでJenkinsのジョブを実行する"
-excerpt: ""
-date: 2020-06-29 22:50:13 +0900
+excerpt: "Alpine LinuxのwgetでJenkinsのジョブを実行しようとしたらすこしつまったので解決方法を記録しておきます"
+date: 2020-07-01 23:59:55 +0900
 categories: "Tech"
 tags: ["Alpine Linux", "Docker", "wget", "Jenkins"]
 ---
