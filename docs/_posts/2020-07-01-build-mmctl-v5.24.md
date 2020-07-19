@@ -2,7 +2,7 @@
 title: "mmctl v5.24をビルドする"
 excerpt: "mmctlのビルドするまでにつまづいた箇所の記録です"
 date: 2020-07-02 00:03:27 +0900
-last_modified_at: 2020-07-19 12:30:27 +0900
+last_modified_at: 2020-07-19 12:33:28 +0900
 categories: "Tech"
 tags: ["Mattermost", "mmctl"]
 ---
@@ -48,7 +48,7 @@ $ make build
 ```
 
 以下のエラーがでました。
-で
+
 ```
 golangci-lint is not installed. Please see https://github.com/golangci/golangci-lint#install for installation instructions.
 make: *** [govet] Error 1
