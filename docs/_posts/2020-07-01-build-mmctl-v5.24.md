@@ -1,8 +1,8 @@
 ---
 title: "mmctl v5.24をビルドする"
-excerpt: "mmctlのビルドするまでのみちのりを記録"
+excerpt: "mmctlのビルドするまでにつまづいた箇所の記録です"
 date: 2020-07-02 00:03:27 +0900
-last_modified_at: 2020-07-02 00:13:20 +0900
+last_modified_at: 2020-07-19 12:30:27 +0900
 categories: "Tech"
 tags: ["Mattermost", "mmctl"]
 ---
@@ -25,6 +25,11 @@ mmctl v5.26.0 -- dev mode
 $ mmctl team list
 WARNING: server version 5.24.0.5.24.2.d8e517e57b1d75bc129f93d43885dd4b.false doesn't match mmctl version 5.26.0
 ```
+
+**2020/7/19 追記**  
+リリースページがあることを見落としていました。[ドキュメント](https://docs.mattermost.com/administration/mmctl-cli-tool.html#installing-mmctl)にちゃんとリリースページへのリンクがありました。
+mmctlコマンドを使うだけであれば、リリースページから該当バージョンのバイナリをダウンロードするとよいですね。
+<https://github.com/mattermost/mmctl/releases>
 
 ## mmctl v5.24をビルドする
 
