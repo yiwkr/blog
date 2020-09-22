@@ -2,7 +2,7 @@
 title: "Promtailで収集したログとタイムスタンプを一致させる"
 excerpt: "Promtailで収集したログのタイムスタンプがログのタイムスタンプとずれているときの対処"
 date: 2020-09-01 13:08:06 +0900
-last_modified_at: 2020-09-01 13:13:47 +0900
+last_modified_at: 2020-09-22 13:39:48 +0900
 categories: "Tech"
 tags: ["Loki", "Promtail", "Linux"]
 ---
@@ -12,9 +12,7 @@ Promtailはデフォルトの設定のままだとのログを収集した時刻
 
 ## Promtailの設定
 
-Promtailのドキュメントに載っている設定例をベースにします。
-
-https://github.com/grafana/loki/blob/v1.5.0/docs/clients/promtail/configuration.md#example-static-config-without-targets
+Promtailのドキュメントに載っている[設定例][promtail-config-example]をベースにします。
 
 ```
 server:
@@ -68,4 +66,6 @@ formatでタイムスタンプの形式を指定します。
 お好みでlocationにタイムゾーンを指定します。
 
 Promtailを再起動すると反映されます。
+
+[promtail-config-example]: https://github.com/grafana/loki/blob/v1.5.0/docs/clients/promtail/configuration.md#example-static-config-without-targets
 
