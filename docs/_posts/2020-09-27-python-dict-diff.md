@@ -113,7 +113,9 @@ def diff(obj1, obj2):
 print(diff(before, after))
 ```
 
-実行結果
+## 出力例
+
+実装例の実行結果です。
 
 ```
   {'None': None,
