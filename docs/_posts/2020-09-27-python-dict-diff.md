@@ -233,7 +233,7 @@ def diff(obj1, obj2):
     lines2 = to_string_lines(obj2)
 
     # lines1、lines2を比較
-    result = Differ().compare(lines1, lines2)
+    result difflib.Differ().compare(lines1, lines2)
 
     # 比較結果を改行で結合して一つの文字列として返却
     return '\n'.join(result)
