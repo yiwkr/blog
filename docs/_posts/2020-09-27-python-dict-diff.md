@@ -253,7 +253,7 @@ unified形式の例
 
 context形式の例
 
-```
+```python
 >>> result = difflib.context_diff(
 ...     to_string_lines(before), to_string_lines(after),
 ...     fromfile='before', tofile='after')
