@@ -11,6 +11,19 @@ tags: ["python", "diff", "dict", "json"]
 
 pythonのdictについて差分情報をログに出したかったので、できるだけ簡単に実現できる方法を調べました。使用しているpythonのバージョンは3.6です。
 
+dictdifferを使った方法など、差分をpythonスクリプト上で扱う方法は検索したらすぐに出てきましたが、単純に差分を表示して目視で確認したい場合に見やすい出力方法が見つけられなかったのでメモしておきます。
+
+下記のようにdictの差分を見やすく表示します。
+
+```
+  {'number': 1,
+-  'tuple': ('aaa', 'bbb', 'ccc')}
+?                     ^
+
++  'tuple': ('aaa', 'bdb', 'ccc')}
+?                     ^
+
+```
 
 ## 対象データ
 
@@ -232,7 +245,7 @@ to_string_lines()でdictを文字列のリストに変換してから、difflib.
 
 difflibでは他にも、unified形式やcontext形式で差分表示することができるようなので、見やすい形式で表示するとよさそうです。
 
-unified形式の例
+#### unified形式の例
 
 ```python
 >>> result = difflib.unified_diff(
@@ -253,7 +266,7 @@ unified形式の例
 + 'tuple': ('aaa', 'bdb', 'ccc')}
 ```
 
-context形式の例
+#### context形式の例
 
 ```python
 >>> result = difflib.context_diff(
