@@ -1,8 +1,8 @@
 ---
-title: "dfでtmpfsやoverlayを非表示にする"
+title: "dfのtmpfsやoverlayを非表示にする"
 excerpt: "dfコマンドで-xオプションを使うと実行結果からtmpfsやoverlayなどの不要なタイプの表示を減らせてすっきりします"
 date: 2021-03-15 21:06:40 +0900
-last_modified_at: 2021-03-15 21:09:03 +0900
+last_modified_at: 2021-03-15 21:16:07 +0900
 categories: "Tech"
 tags: ["df", "Linux", 'GNU', "docker"]
 ---
