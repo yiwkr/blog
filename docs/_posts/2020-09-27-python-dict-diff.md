@@ -4,7 +4,7 @@ excerpt: "標準ライブラリのpprintとdifflibを使ってdictの差分を�
 date: 2020-09-27 19:04:07 +0900
 last_modified_at、: 2020-09-27 19:08:20 +0900
 categories: "Tech"
-tags: ["python", "diff", "dict", "json"]
+tags: ["Python", "diff", "dict", "json"]
 ---
 
 ## 背景

@@ -2,9 +2,9 @@
 title: "bootstrap-vueでEnterを押すかフォーカスが外れたときに入力確定する入力フィールドを作った"
 excerpt: "Enterを押すかフォーカスが外れたときに入力が確定する入力フィールドをvueのコンポーネントとして作ってみました"
 date: 2020-04-20 12:30:00 +0900
-last_modified_at: 2020-07-02 00:13:52 +0900
+last_modified_at: 2021-03-15 21:19:09 +0900
 categories: "Tech"
-tags: ["Web", "Vue.js", "bootstrap-vue"]
+tags: ["Web", "Vue.js", "BootstrapVue"]
 ---
 
 ## はじめに
