@@ -5,6 +5,8 @@ date: 2021-03-15 21:06:40 +0900
 last_modified_at: 2021-03-15 21:17:37 +0900
 categories: "Tech"
 tags: ["df", "Linux", 'GNU', "Docker"]
+header:
+  teaser: /assets/images/terminal-black.png
 ---
 
 ## タイプ指定で表示を制限する`-x`オプション

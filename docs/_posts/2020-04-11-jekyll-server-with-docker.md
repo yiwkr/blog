@@ -5,6 +5,8 @@ date: 2020-04-11 12:42:51 +0900
 last_modified_at: 2020-07-02 00:13:33 +0900
 categories: "Tech"
 tags: ["Jekyll", "Docker", "Makefile"]
+header:
+  teaser: /assets/images/terminal-black.png
 ---
 
 ## はじめに

@@ -5,6 +5,8 @@ date: 2020-04-20 12:30:00 +0900
 last_modified_at: 2021-03-15 21:19:09 +0900
 categories: "Tech"
 tags: ["Web", "Vue.js", "BootstrapVue"]
+header:
+  teaser: /assets/images/vue.png
 ---
 
 ## はじめに

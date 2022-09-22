@@ -5,6 +5,8 @@ date: 2020-07-02 00:03:27 +0900
 last_modified_at: 2020-07-19 12:33:28 +0900
 categories: "Tech"
 tags: ["Mattermost", "mmctl"]
+header:
+  teaser: /assets/images/terminal-black.png
 ---
 
 ## mmctlはMattermostサーバーとバージョンが合わないと警告がでる

@@ -5,6 +5,8 @@ date: 2020-06-29 22:50:13 +0900
 last_modified_at: 2020-07-02 00:12:49 +0900
 categories: "Tech"
 tags: ["Alpine Linux", "Docker", "wget", "Jenkins"]
+header:
+  teaser: /assets/images/terminal-black.png
 ---
 
 ## 結論

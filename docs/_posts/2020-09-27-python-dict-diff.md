@@ -5,6 +5,8 @@ date: 2020-09-27 19:04:07 +0900
 last_modified_at、: 2020-09-27 19:08:20 +0900
 categories: "Tech"
 tags: ["Python", "diff", "dict", "json"]
+header:
+  teaser: /assets/images/python-logo-v3-TM.png
 ---
 
 ## 背景

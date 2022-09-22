@@ -5,6 +5,8 @@ date: 2020-09-01 13:08:06 +0900
 last_modified_at: 2020-09-22 13:39:48 +0900
 categories: "Tech"
 tags: ["Loki", "Promtail", "Linux"]
+header:
+  teaser: /assets/images/terminal-black.png
 ---
 
 Promtailはデフォルトの設定のままだとのログを収集した時刻をタイムスタンプとして扱います。
