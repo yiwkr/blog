@@ -1,6 +1,8 @@
 ---
 title: "Posts by Tag"
-permalink: /tags/
 layout: tags
+entries_layout: grid
+permalink: /tags/
 author_profile: true
+classes: wide
 ---
