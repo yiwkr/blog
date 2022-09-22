@@ -162,6 +162,4 @@ defaults:
       type: "pages"
     values:
       <<: *defaults_pages_values
-      permalink: "/"
-      layout: "home"
       excerpt: *description

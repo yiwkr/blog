@@ -73,7 +73,7 @@ footer:
 # Build settings
 markdown: "kramdown"
 
-remote_theme: mmistakes/minimal-mistakes@4.19.1
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 minimal_mistakes_skin: "default"
 plugins:
@@ -168,6 +168,4 @@ defaults:
       type: "pages"
     values:
       <<: *defaults_pages_values
-      permalink: "/"
-      layout: "home"
       excerpt: *description

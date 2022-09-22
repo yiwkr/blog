@@ -73,7 +73,7 @@ footer:
 # Build settings
 markdown: "kramdown"
 {% if production %}
-remote_theme: mmistakes/minimal-mistakes@4.19.1
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 {% else %}
 theme: "minimal-mistakes-jekyll"
 {% endif %}
@@ -170,6 +170,4 @@ defaults:
       type: "pages"
     values:
       <<: *defaults_pages_values
-      permalink: "/"
-      layout: "home"
       excerpt: *description
