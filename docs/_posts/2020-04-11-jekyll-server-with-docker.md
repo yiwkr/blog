@@ -6,8 +6,10 @@ last_modified_at: 2020-07-02 00:13:33 +0900
 categories: "Tech"
 tags: ["Jekyll", "Docker", "Makefile"]
 header:
-  teaser: /assets/images/terminal-black.png
+  teaser: /assets/images/jekyll-logo.svg
 ---
+
+![header-image](assets/images/jekyll-logo.svg)
 
 ## はじめに
 

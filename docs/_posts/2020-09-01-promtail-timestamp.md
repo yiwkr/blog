@@ -9,6 +9,8 @@ header:
   teaser: /assets/images/terminal-black.png
 ---
 
+![header-image](assets/images/terminal-black.png)
+
 Promtailはデフォルトの設定のままだとのログを収集した時刻をタイムスタンプとして扱います。
 ログに出力されている時刻をタイムスタンプとして扱えるようにするには設定が必要です。
 

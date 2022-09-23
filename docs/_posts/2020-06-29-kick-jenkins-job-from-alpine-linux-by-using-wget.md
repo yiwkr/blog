@@ -9,6 +9,8 @@ header:
   teaser: /assets/images/terminal-black.png
 ---
 
+![header-image](assets/images/terminal-black.png)
+
 ## 結論
 
 Alpine LinuxのwgetでJenkinsのジョブを実行するには、下記のようにURLにユーザー名とAPIトークンを含めます。

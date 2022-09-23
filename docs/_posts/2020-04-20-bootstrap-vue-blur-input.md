@@ -9,6 +9,8 @@ header:
   teaser: /assets/images/vue.png
 ---
 
+![header-image](assets/images/vue.png)
+
 ## はじめに
 
 勉強がてら簡単なWebアプリをvue+bootstrap-vueで作ってみていますが、そのなかでbootstrap-vueにはない機能をもったコンポーネントが必要になったので作ってみました。

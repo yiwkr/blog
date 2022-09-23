@@ -9,6 +9,8 @@ header:
   teaser: /assets/images/terminal-black.png
 ---
 
+![header-image](assets/images/terminal-black.png)
+
 ## タイプ指定で表示を制限する`-x`オプション
 
 `-x`オプションでタイプを指定するとそのタイプは非表示にできます。

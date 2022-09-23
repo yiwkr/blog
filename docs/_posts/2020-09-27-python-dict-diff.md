@@ -9,6 +9,8 @@ header:
   teaser: /assets/images/python-logo-v3-TM.png
 ---
 
+![header-image](assets/images/python-logo-v3-TM.png)
+
 ## 背景
 
 pythonのdictについて差分情報をログに出したかったので、できるだけ簡単に実現できる方法を調べました。使用しているpythonのバージョンは3.6です。
