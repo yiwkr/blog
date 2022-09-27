@@ -139,6 +139,12 @@ comments:
 feed:
   excerpt_only: true
 
+# Collections
+collections:
+  apps:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -155,6 +161,14 @@ defaults:
       toc: true
       toc_sticky: true
       comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: "single"
+      author_profile: false
+      share: true
   # _pages
   - scope:
       path: "_pages"
