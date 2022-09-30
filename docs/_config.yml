@@ -20,7 +20,7 @@ subtitle:
 name: &name "yiwkr"
 email: "iwakiri.yutaro@gmail.com"
 description: &description "メモ置き場"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: "https://yiwkr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "yiwkr/blog"
 search: true
