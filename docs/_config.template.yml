@@ -37,9 +37,9 @@ social:
 # Analytics
 {% if production %}
 analytics:
-  provider: "google-universal"
+  provider: "google-gtag"
   google:
-    tracking_id: "UA-163387568-1"
+    tracking_id: "G-GPVJE30SLY"
     anoymize_ip: true
 {% endif %}
 
