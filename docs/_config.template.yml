@@ -26,13 +26,6 @@ repository: "yiwkr/blog"
 search: true
 search_full_content: true
 search_provider: "lunr"
-twitter:
-  username: "yiwkr"
-social:
-  type:
-  name:
-  links:
-    - "https://twitter.com/yiwkr"
 
 # Analytics
 {% if production %}
@@ -48,14 +41,11 @@ author:
   name: *name
   avatar: "/assets/images/profile.jpg"
   bio:
-  location: "神奈川県"
+  location: "Japan"
   links:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/yiwkr"
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-    url: "https://twitter.com/yiwkr"
   - label: "Email"
     icon: "fas fa-fw fa-envelope-square"
     url: "mailto:iwakiri.yutaro@gmail.com"
@@ -66,9 +56,6 @@ footer:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/yiwkr"
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-    url: "https://twitter.com/yiwkr"
 
 # Build settings
 markdown: "kramdown"
